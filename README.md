@@ -1,32 +1,47 @@
-DSA with Java (Short Revision Code)
 
-This repository contains my short + optimized Java solutions for important Data Structures & Algorithms problems.
 
-I am keeping the code concise mainly for revision and fast recall — not full long editorial style.
-This helps me revise concepts before interviews easily and keep track of patterns.
+# 🚀 DSA with Java — Revision Focus
 
-Current Topics Covered
+This repository contains my short, concise Java solutions for important **Data Structures & Algorithms** problems.
+All code here is written mainly for **revision purpose** — quick logic recall and interview preparation.
 
-Arrays
+---
 
-Strings
+## 📌 Current Topics Covered
 
-(more topics will be added gradually like Binary Search, Sliding Window, DP, Trees, etc.)
+| Topic   | Status        |
+| ------- | ------------- |
+| Arrays  | ✅ in progress |
+| Strings | ✅ in progress |
 
-Repo Purpose
+> More topics will be added soon: Binary Search, Two Pointers, Sliding Window, Recursion, DP, Trees, Graphs etc.
 
-Build consistency
+---
 
-Practice problem solving
+## 🎯 Purpose of this Repo
 
-Maintain personal revision notes
+* Build consistency in DSA
+* Keep short readable implementations
+* Improve problem solving logic
+* Revision friendly codebase
+* Public progress tracking
 
-Track DSA progress publicly
+---
 
-Tech
+## 🛠️ Tech Stack
 
-Java 8+
+| Language | Version |
+| -------- | ------- |
+| Java     | 8+      |
 
-Future Plan
+---
 
-As questions grow, I will organize them into topic based folders.
+## 🔮 Future TODO
+
+* Organize problems by topic folders
+* Add Complexity notes
+* Add Pattern based folders
+
+
+
+
