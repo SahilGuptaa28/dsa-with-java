@@ -1,0 +1,44 @@
+# Java class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# IDE Specific
+.idea/
+.vscode/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VSCode Java ext
+.vscode/
+server/
+
+# Maven / Gradle output general (if you ever use later)
+target/
+bin/
+out/
+build/
