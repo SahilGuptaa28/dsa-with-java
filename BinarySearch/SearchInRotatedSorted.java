@@ -9,6 +9,7 @@ class Solution {
            return mid;
         }
         if(nums[low]<=nums[mid]){
+            // checking if the target lies in this sorted part
             if(nums[low]<= target && nums[mid]>=target){
                 high = mid-1;
             }else{
