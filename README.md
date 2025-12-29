@@ -9,12 +9,14 @@ All code here is written mainly for **revision purpose** — quick logic recall 
 
 ## 📌 Current Topics Covered
 
-| Topic   | Status        |
-| ------- | ------------- |
-| Arrays  | ✅ in progress |
-| Strings | ✅ in progress |
+| Topic          | Status        |
+| -------------- | ------------- |
+| Arrays         | ✅ in progress |
+| Strings        | ✅ in progress |
+| Binary Search  | ✅ in progress |
+| Two Pointers   | ✅ in progress |
 
-> More topics will be added soon: Binary Search, Two Pointers, Sliding Window, Recursion, DP, Trees, Graphs etc.
+> More topics will be added soon: Sliding Window, Recursion, DP, Trees, Graphs etc.
 
 ---
 
