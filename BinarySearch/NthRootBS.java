@@ -1,3 +1,4 @@
+// BS on answers.
 class Solution {
     // function to return the power.
     public int power(int mid,int n,int m){
