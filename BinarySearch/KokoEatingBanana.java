@@ -1,5 +1,4 @@
 //. BS on answers.
-
 class Solution {
      public long TimeRequired(int[] arr,int banana){
          long timeRequired =0;
