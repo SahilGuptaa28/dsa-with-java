@@ -7,8 +7,8 @@ class Solution {
 
             while(map.size()>k){
                 map.put(s.charAt(l),map.get(s.charAt(l))-1);
-                if(map.get(s.charAt(r))==0){
-                    map.remove(s.charAt(r));
+                if(map.get(s.charAt(l))==0){
+                    map.remove(s.charAt(l));
                 }
                 l++;
             }
