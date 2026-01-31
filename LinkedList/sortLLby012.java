@@ -14,7 +14,7 @@ class Solution {
                 zero.next = newNode;
                 zero = zero.next;
             }
-           else if(curr.data ==1){
+           else if(curr.data == 1){
                  Node newNode = new Node(1);
                 one.next = newNode;
                 one= one.next;
