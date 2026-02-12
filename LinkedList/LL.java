@@ -121,4 +121,97 @@ public class LL {
          list.printList();
     }
 }
+ ///// leetcode
+class MyLinkedList {
+    Node head;
+     private int size;
+    public MyLinkedList() {
+                head = null;
+                 size = 0;
+    }
 
+    class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    public int get(int index) {
+         if (index < 0 || index >= size) return -1;
+        Node curr = head;
+        int i = 0;
+        while (curr != null && i < index) {
+            i++;
+            curr = curr.next;
+        }
+        return (curr == null) ? -1 : curr.data;
+    }
+
+    public void addAtHead(int val) {
+        Node newNode = new Node(val);
+        if (head == null) {
+            size++;
+            head = newNode;
+            return;
+        }
+        newNode.next = head;
+        head = newNode;
+        size++;
+    }
+
+    public void addAtTail(int val) {
+        Node newNode = new Node(val);
+        if (head == null) {
+            head = newNode;
+            size++;
+            return;
+        }
+        Node curr = head;
+        while (curr.next != null) {
+            curr = curr.next;
+        }
+        curr.next = newNode;
+        size++;
+    }
+
+    public void addAtIndex(int index, int val) {
+        Node newNode = new Node(val);
+        if (index < 0 || index > size) return;
+        if (index == 0) {
+        addAtHead(val);
+        return;
+    }
+    if(index == size){
+        addAtTail(val);
+        return;
+    }
+        Node curr = head;
+        int i = 0;
+        while (i < index - 1) {
+            curr = curr.next;
+            i++;
+        }
+        newNode.next = curr.next;
+        curr.next = newNode;
+        size++;
+    }
+
+    public void deleteAtIndex(int index) {
+        if(index<0 || index >= size) return;
+        if(index == 0){
+            head = head.next;
+        }else{
+             Node curr = head;
+            for(int i=0;i<index-1;i++){
+               curr = curr.next;
+            }
+            curr.next = curr.next.next;
+        }
+          size--;
+
+    }
+}
