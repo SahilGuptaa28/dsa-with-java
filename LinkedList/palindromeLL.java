@@ -30,7 +30,6 @@ class Solution {
             return true;
         }
        ListNode middle = middleNode(head);
-        ListNode second = middle.next; 
        ListNode SecondHalfStart = reverse(middle.next);
        ListNode firstHalfStart = head;
        while(SecondHalfStart != null  ){
