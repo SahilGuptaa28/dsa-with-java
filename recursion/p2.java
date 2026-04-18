@@ -1,13 +1,13 @@
 import java.util.*;
 class solution{
-    public static void printNum(int n,int i){
-        if(i>n){
-        return;
+    public static void sum(int n){   
+        if(n==0){
+        return ;
     }
-     printNum(n,i+1);
-     System.out.println(i);
-  
-      
+
+     
+    System.out.println(n); 
+    sum(n-1);1 
 }
 }
 
@@ -16,6 +16,7 @@ public class p2 {
            Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int n = sc.nextInt();
-      solution.printNum(n,1);
+       solution.sum(n);
+       
     }
 }
