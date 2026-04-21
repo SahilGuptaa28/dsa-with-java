@@ -16,10 +16,10 @@ This repository contains short, concise Java solutions for important Data Struct
 | Recursion             | ✅ Completed   |
 | Backtracking          | ✅ Completed   |
 | Sorting               | ✅ Completed   |
-| Linked List           | ✅ In Progress |
-| Stack                 | ✅ In Progress |
+| Linked List           | ✅ completed   |
+| Stack                 | ✅ completed   |
+| HashMap / Hashset     | ✅ completed   |
 | Queue                 | ✅ In Progress |
-| HashMap / HashSet     | ✅ In Progress |
 | Prefix Sum            | ✅ In Progress |
 | Bit Manipulation      | ✅ In Progress |
 | Greedy Algorithms     | ✅ In Progress |
