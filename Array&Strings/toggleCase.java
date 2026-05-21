@@ -1,0 +1,21 @@
+class Solution {
+    public String toggleCase(String s) {
+
+        StringBuilder sb = new StringBuilder();
+
+        for(char ch : s.toCharArray()){
+
+            if(ch >= 'A' && ch <= 'Z'){
+                sb.append((char)(ch + 32));
+
+            }else if(ch >= 'a' && ch <= 'z'){
+                sb.append((char)(ch - 32));
+
+            }else{
+                sb.append(ch);
+            }
+        }
+
+        return sb.toString();
+    }
+}

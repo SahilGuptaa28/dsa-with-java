@@ -1,3 +1,4 @@
+//  Dutch National Flag Algorithm.....
 public class sort012{
     public void swap(int[] arr,int i,int j){
         int temp = arr[i];
@@ -18,7 +19,6 @@ public class sort012{
                 swap(arr,mid,high);
                 high--;
             }
-//  Dutch National Flag Algorithm.....
         }
     }
 }
