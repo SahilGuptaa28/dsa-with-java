@@ -4,70 +4,87 @@ This repository contains short, concise Java solutions for important Data Struct
 
 ---
 
-## 📌 Topics Covered
+# 📌 Topics Covered
 
-| Topic                 | Status        |
-| --------------------- | ------------- |
-| Arrays                | ✅ Completed   |
-| Strings               | ✅ Completed   |
-| Binary Search         | ✅ Completed   |
-| Two Pointers          | ✅ Completed   |
-| Sliding Window        | ✅ Completed   |
-| Recursion             | ✅ Completed   |
-| Backtracking          | ✅ Completed   |
-| Sorting               | ✅ Completed   |
-| Linked List           | ✅ completed   |
-| Stack                 | ✅ completed   |
-| HashMap / Hashset     | ✅ completed   |
-| Queue                 | ✅ In Progress |
-| Prefix Sum            | ✅ In Progress |
-| Bit Manipulation      | ✅ In Progress |
-| Greedy Algorithms     | ✅ In Progress |
-| Dynamic Programming   | 🔄 Learning   |
-| Trees                 | 🔄 Learning   |
-| Graphs                | 🔄 Learning   |
-| Heap / Priority Queue | 🔄 Learning   |
-| Tries                 | ⏳ Planned     |
-| Segment Tree          | ⏳ Planned     |
-
----
-
-## 🎯 Purpose of this Repo
-
-* Build consistency in DSA
-* Keep solutions short and readable
-* Improve problem-solving logic
-* Create a revision-friendly codebase
-* Track learning progress publicly
-* Prepare for coding interviews and online assessments
+| Topic                 | Status |
+| --------------------- | ------ |
+| Arrays                | ✅ Completed |
+| Strings               | ✅ Completed |
+| Binary Search         | ✅ Completed |
+| Two Pointers          | ✅ Completed |
+| Sliding Window        | ✅ Completed |
+| Recursion             | ✅ Completed |
+| Backtracking          | ✅ Completed |
+| Sorting               | ✅ Completed |
+| Linked List           | ✅ Completed |
+| Stack                 | ✅ Completed |
+| Queue                 | ✅ Completed |
+| HashMap / HashSet     | ✅ Completed |
+| Trees                 | ✅ Completed |
+| Heap / Priority Queue | ✅ Completed |
+| Prefix Sum            | 🔄 In Progress |
+| Bit Manipulation      | 🔄 In Progress |
+| Greedy Algorithms     | 🔄 In Progress |
+| Dynamic Programming   | 🔄 1D DP Completed |
+| Graphs                | ⏳ Planned |
+| Tries                 | ⏳ Planned |
+| Segment Tree          | ⏳ Planned |
 
 ---
 
-## 🛠️ Tech Stack
+# 🎯 Purpose of this Repo
+
+- Build consistency in DSA
+- Keep solutions short and revision-friendly
+- Improve problem-solving and pattern recognition
+- Create a clean codebase for quick recall
+- Track learning progress publicly
+- Prepare for coding interviews and online assessments
+
+---
+
+# 🛠️ Tech Stack
 
 | Language | Version |
 | -------- | ------- |
-| Java     | 8+      |
+| Java     | 8+ |
 
 ---
 
-## 📚 Problem Solving Approach
+# 📚 Problem Solving Approach
 
-* Focus on optimized solutions
-* Practice multiple approaches where possible
-* Learn common coding patterns
-* Add edge case handling
-* Improve time and space complexity understanding
-* Use clean and readable code for faster revision
+- Focus on optimized solutions first
+- Learn brute force → better → optimal approaches
+- Practice common interview patterns
+- Add edge case handling
+- Improve time and space complexity understanding
+- Use clean and readable code for faster revision
+- Understand comparator logic and heap patterns deeply
+- Maintain notes for tricky mistakes and observations
 
 ---
 
-## 🔮 Future TODO
+# 📖 What This Repository Includes
 
-* Organize problems by topic folders
-* Add time and space complexity notes
-* Add pattern-based folders
-* Add important interview questions
-* Add explanations for tricky problems
-* Add recursion and backtracking templates
-* Add LeetCode contest problems and notes
+- Clean Java solutions
+- Important interview problems
+- Comparator and Priority Queue patterns
+- Recursion and backtracking templates
+- Heap and HashMap patterns
+- Time and space complexity notes
+- Common mistakes and edge cases
+- Revision-focused implementations
+
+---
+
+# 🔮 Future TODO
+
+- Organize problems topic-wise
+- Add pattern-based folders
+- Add detailed notes and explanations
+- Add Graph algorithms and templates
+- Add 2D DP and advanced DP patterns
+- Add Tries and Segment Tree implementations
+- Add LeetCode contest problems and notes
+- Add company-wise interview questions
+- Add frequently used Java templates
